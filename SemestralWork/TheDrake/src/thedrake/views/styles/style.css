@@ -1,0 +1,63 @@
+/* Styles for StackPane */
+StackPane {
+    -fx-background-color: white; /* White background for filling */
+}
+
+/* Styles for Background Image */
+.background-image {
+    -fx-image: url('/thedrake/images/background.jpg');
+    -fx-fit-width: 1200px;
+    -fx-fit-height: 1200px;
+}
+
+/* Styles for HBox */
+.h-box {
+    -fx-alignment: center;
+}
+
+/* Styles for VBox */
+.v-box {
+    -fx-alignment: center;
+    -fx-spacing: 30px;
+    -fx-padding: 20px;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    -fx-border-radius: 5px;
+}
+
+/* Styles for Buttons */
+.menu-button {
+    -fx-font-family: 'Cinzel'; /* Use Cinzel font */
+    -fx-font-size: 16px; /* Font size */
+    -fx-padding: 10px 20px; /* Padding */
+    -fx-background-color: #F5DEB3; /* Sand color background */
+    -fx-background-radius: 12; /* Rounded corners */
+    -fx-text-fill: #000000; /* Black text color */
+    -fx-border-color: #8B4513; /* Dark brown border color */
+    -fx-border-width: 4px; /* Border width */
+    -fx-border-radius: 12; /* Rounded border */
+    -fx-min-width: 200px; /* Minimum button width */
+    -fx-max-width: 200px; /* Maximum button width */
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 5); /* Shadow effect */
+}
+
+.menu-button:hover {
+    -fx-background-color: #DEB887; /* Light brown background on hover */
+    -fx-border-color: #8B4513;
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.35), 12, 0, 0, 6); /* Enhanced shadow effect on hover */
+}
+
+.menu-button:pressed {
+    -fx-background-color: #D2B48C; /* Dark sand background on press */
+    -fx-border-color: #8B4513; /* Dark brown border on press */
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.2), 8, 0, 0, 4); /* Reduced shadow effect on press */
+}
+
+/* Styles for Logo Image */
+.logo-image {
+    -fx-image: url('/thedrake/images/logo.png');
+    -fx-fit-height: 350px;
+    -fx-fit-width: 350px;
+    -fx-preserve-ratio: true;
+}
