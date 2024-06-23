@@ -5,8 +5,6 @@
 **The Drake** is a strategic board game developed in `Java` using `JavaFX` for the graphical user interface. 
 The game is designed to challenge players' strategic thinking and decision-making skills.
 
----
-
 ## Project Structure 📁
 
 - `SemestralWork/`: Root directory of the project.
@@ -28,8 +26,6 @@ The game is designed to challenge players' strategic thinking and decision-makin
     - `test/`: Test directory containing unit tests.
     - `module-info.java`: Module configuration file.
 
----
-
 ## Technology Stack and Concepts Used 🚀
 
 The project leverages a variety of technologies and programming concepts, including:
@@ -46,8 +42,6 @@ The project leverages a variety of technologies and programming concepts, includ
 - **Database Connectivity**: (If applicable) Managing data persistence.
 - **Design Patterns**: Utilizing design patterns such as Singleton, Factory, and MVC.
 
----
-
 ## Game Rules and Mechanics 📜
 
 Here is a summary of the key mechanics:
@@ -60,8 +54,6 @@ Here is a summary of the key mechanics:
 3. **Winning Conditions**: The game can be won by fulfilling certain conditions, such as capturing all of the opponent's pieces or achieving a strategic position on the board.
 4. **Special Moves**: The game may include special moves or abilities that can be used under certain conditions to gain an advantage.
 
----
-
 ## How to Play 🎮
 
 1. **Start the Game**:
@@ -72,8 +64,6 @@ Here is a summary of the key mechanics:
     - Follow the on-screen prompts and instructions to navigate through the game.
 3. **Win the Game**:
     - Achieve the winning conditions by strategically moving your pieces and outmaneuvering your opponent.
-
----
 
 ## Conclusion ⭐️
 
